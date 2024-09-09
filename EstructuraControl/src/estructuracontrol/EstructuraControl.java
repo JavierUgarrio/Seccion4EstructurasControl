@@ -212,7 +212,28 @@ public class EstructuraControl {
         default:
             System.out.println("Te has equivocado introduciendo el numero, prueba otra vez");
         }
-        System.out.println("la estacion de verano selecionada es: " + estacion);    
+        System.out.println("la estacion de verano selecionada es: " + estacion); 
+        
+        //while
+        int c =0;
+        while(c<=10){
+            System.out.println("el valor de c es: " + c);
+            c++;
+        }
+        
+        //Ejemplo de la tabla de multiplicar
+        
+        Scanner teclado6 = new Scanner(System.in);
+        System.out.println("Por favor, introduce un numero para mostrar la tabla de multiplicar");
+        int n1 = teclado6.nextInt();
+        int n2 = 0;
+        while (n2 <=10){
+            int multiplicacion = n1 *n2;
+            System.out.println(n1 + " X "+ n2 +" = " + multiplicacion);
+            n2++;
+        }
+        
+        
     }
     
 }
