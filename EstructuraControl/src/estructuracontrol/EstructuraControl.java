@@ -142,6 +142,43 @@ public class EstructuraControl {
             System.out.println("no es multiplo ni de 3, ni de 5");
         }
         
+        
+        // SWITCH
+        
+        Scanner teclado4 = new Scanner(System.in);
+        System.out.println("Introduce un numero del 1 al 7 para elegir el dia de la semana");
+        int numeroSemana = teclado4.nextInt();
+        String nombreDia = null;
+        
+        switch(numeroSemana){
+            case 1:
+                nombreDia = "Lunes";
+                break;
+            case 2:
+                nombreDia = "Martes";
+                break;
+            case 3:
+                nombreDia = "Miercoles";
+                break;
+            case 4:
+                nombreDia = "Jueves";
+                break;
+            case 5:
+                nombreDia = "Viernes";
+                break;
+            case 6:
+                nombreDia = "Sabado";
+                break;
+            case 7:
+                nombreDia = "Domingo";
+                break;
+            default:
+                System.out.println("Te has equivocado");
+                break;
+        }
+        System.out.println("el dia de la semana es: "+ nombreDia);
+        
+            
     }
     
 }
