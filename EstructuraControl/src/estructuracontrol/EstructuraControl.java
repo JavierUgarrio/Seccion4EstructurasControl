@@ -212,6 +212,7 @@ public class EstructuraControl {
         default:
             System.out.println("Te has equivocado introduciendo el numero, prueba otra vez");
         }
+<<<<<<< HEAD
         System.out.println("la estacion de verano selecionada es: " + estacion); 
         
         //while
@@ -234,6 +235,9 @@ public class EstructuraControl {
         }
         
         
+=======
+        System.out.println("la estacion de verano selecionada es: " + estacion);    
+>>>>>>> origin/develop
     }
     
 }
