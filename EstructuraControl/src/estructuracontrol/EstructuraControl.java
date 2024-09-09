@@ -106,7 +106,42 @@ public class EstructuraControl {
         }else{
             System.out.println("Son iguales");
         }
-    
+        
+        /*
+        Enunciado: Determine si un número es múltiplo de 3 y 5.
+        Análisis: Para la solución de este problema, se requiere que el usuario ingrese un número entero n, luego el sistema analiza y determina si es el número es múltiplo de 3 y de 5.
+
+        Expresión
+        Si n Mod 3 = 0 ^ Mod 5 = 0 ==>
+            SI ES MÚLTIPLO DE 3 Y 5 
+        SINO
+            NO ES MÚLTIPLO DE 3 Y 5 
+        Entrada
+        Número (n)
+
+        Salida
+        Resultado (r)
+        ES MÚLTIPLO
+        NO ES MÚLTIPLO
+
+        Preguntas de esta tarea
+        Determine si un número es múltiplo de 3 y 5.
+        */    
+        
+        Scanner teclado3 = new Scanner(System.in);
+        System.out.println("Por favor, introduce el numero");
+        int multiplo = teclado3.nextInt();
+        int multiplo1 = 3;
+        int multiplo2 = 5;
+        
+        if(multiplo % multiplo1 == 0){
+            System.out.println("Es multiplo de 3");
+        }else if(multiplo % multiplo2 ==0){
+            System.out.println("Es multiplo de 5");
+        }else{
+            System.out.println("no es multiplo ni de 3, ni de 5");
+        }
+        
     }
     
 }
