@@ -178,7 +178,41 @@ public class EstructuraControl {
         }
         System.out.println("el dia de la semana es: "+ nombreDia);
         
-            
+        
+        /*
+        Ejercicio 
+        Enunciado: Al ingresar un número entre 1 y 4 devolver la estación del año de acuerdo a la siguiente tabla.
+            | Número  | Estación  |
+            | :-----: | :-------- |
+            |    1    | Verano    |
+            |    2    | Otoño     |
+            |    3    | Invierno  |
+            |    4    | Primavera |
+        */
+        
+        Scanner teclado5 = new Scanner(System.in);
+        System.out.println("Introduce un numero entre el 1 y el 4");
+        int numeroEstacion = teclado5.nextInt();
+        
+        String estacion = null;
+        
+        switch(numeroEstacion){
+        case 1:
+            estacion = "Verano";
+            break;
+        case 2:
+            estacion = "Otoño";
+            break;
+        case 3:
+            estacion = "Invierno";
+            break;
+        case 4:
+            estacion = "Primavera";
+            break;
+        default:
+            System.out.println("Te has equivocado introduciendo el numero, prueba otra vez");
+        }
+        System.out.println("la estacion de verano selecionada es: " + estacion);    
     }
     
 }
