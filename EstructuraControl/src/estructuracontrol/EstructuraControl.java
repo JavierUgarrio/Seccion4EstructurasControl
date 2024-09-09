@@ -40,7 +40,38 @@ public class EstructuraControl {
             System.out.println("el numero es impar");
         }
         
+        System.out.println("Ingrese un numero entero");
+        int numero2 = teclado.nextInt();
         
+        if(numero2 % 2 !=0){
+            if(numero2 % 2 ==0){
+                System.out.println("el numero es par");
+            }else{
+                System.out.println("el numero es impar");
+            }
+        }else{
+            System.out.println("el numero ingresado es neutro");
+        }
+        
+        //* detectar si es vocal o no
+        System.out.println("Introduce una letra");
+        Scanner tecladoLetra = new Scanner(System.in);
+        String letra = tecladoLetra.nextLine();
+        
+        
+        if ( "a".equals(letra) || "A".equals(letra)){
+            System.out.println("se trata de una vocal");
+        }else if("e".equals(letra) || "E".equals(letra) ){
+            System.out.println("se trata de una vocal");
+        }else if("i".equals(letra) || "I".equals(letra) ){
+            System.out.println("se trata de una vocal");
+        }else if("o".equals(letra) || "O".equals(letra) ){
+            System.out.println("se trata de una vocal");
+        }else if("u".equals(letra) || "U".equals(letra) ){
+            System.out.println("se trata de una vocal");
+        }else{
+            System.out.println("se trata de una consonante");
+        }
         
     }
     
