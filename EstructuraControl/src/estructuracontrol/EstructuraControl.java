@@ -241,6 +241,32 @@ public class EstructuraControl {
             System.out.println("el valor de c es: " + num8);
             num8++;
         }while( num8 <=10);
+        /*
+        Enunciado: Dado un rango de números enteros, obtener la cantidad de números enteros que contiene.
+        Análisis: Para la solución de este problema, se requiere que el usuario ingrese el número inicial y final, luego el sistema procesa y devuelve la cantidad de números enteros que contiene el rango.
+
+        Entrada
+        Número Inicial (ni).
+        Número Final (nf).
+
+        Salida
+        Cantidad (c).
+        */
+        
+        Scanner teclado9 = new Scanner(System.in);
+        System.out.println("Introduce un numero");
+        int number1 = teclado9.nextInt();
+        System.out.println("Introduce un segundo numero");
+        int number2 = teclado9.nextInt();
+        
+        int contador = 0;
+        int numberActual = number1;
+        
+        while(number1 <= number2){
+            contador++;
+            numberActual++;   
+        }
+         System.out.println("La cantidad de números enteros en el rango es: " + contador);
     }
     
 }
