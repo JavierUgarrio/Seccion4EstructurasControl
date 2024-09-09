@@ -72,7 +72,41 @@ public class EstructuraControl {
         }else{
             System.out.println("se trata de una consonante");
         }
+
+    /*
+        Enunciado: Dado dos números enteros diferentes, devolver el número Mayor.
+        Análisis: Para la solución de este problema, se requiere que el usuario ingrese dos números enteros diferentes y el sistema realice el proceso para devolver el número mayor.
+
+        Expresión
+
+        Si  n1>n2 ==>n1 es Mayor
+        Si n2>n1 ==>n2 es Mayor
+
+        Entrada
+        Dos números (n1 y n2).
+
+        Salida
+        Número Mayor (m).
+
+        Preguntas de esta tarea
+        Dado dos números enteros diferentes, devolver el número Mayor.
+    */
+        Scanner teclado2 = new Scanner(System.in);
         
+        System.out.println("Por favor, introduce un numero");
+        int numero0 = teclado2.nextInt();
+        
+        System.out.println("Por favor, introduce un numero");
+        int numero1 = teclado2.nextInt();
+  
+        if(numero0>numero1){
+            System.out.println("El primer numero introducido " + numero0 + " es mayor que " + numero1 );
+        }else if(numero1>numero0){
+            System.out.println("El segundo numero introducido " + numero1 + " es mayor que " + numero0 );
+        }else{
+            System.out.println("Son iguales");
+        }
+    
     }
     
 }
