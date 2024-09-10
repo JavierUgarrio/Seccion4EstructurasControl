@@ -349,9 +349,24 @@ public class EstructuraControl {
         }
         
         
+        // Array multidimensional
         
+        int [] [] x = new int [2][3];
+        x [0][0]=1;
+        x [0][1]=12;
+        x [0][2]=43;
         
+        x [1][0]=34;
+        x [1][1]=2;
+        x [1][2]=7;
         
+        //iterar array multidimensional
+        
+        for( int [] fila: x){
+            for( int dato: fila){
+                System.out.println(dato);
+            }
+        }
     }
     
 }
