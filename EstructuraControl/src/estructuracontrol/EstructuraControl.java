@@ -324,6 +324,28 @@ public class EstructuraControl {
             
         }
         System.out.println("el numero de enteros que contine es: " + contador2);
+        
+        //ARRAY
+        String coleccionNombres [];
+        coleccionNombres = new String [3];
+        coleccionNombres[0] = "Jose";
+        coleccionNombres[1] = "Alvaro";
+        coleccionNombres[2] = "Perico";
+        
+        System.out.println("NOMBRE DEL INDICE 2: " + coleccionNombres[2]);
+        System.out.println(coleccionNombres.length);
+        
+        //otras formas de definir un array
+        int [] arrayNum = {1,2,3,4,5};
+        int [] arrayNum2 = new int [10];
+        
+        //Iterador Array
+        
+        
+        
+        
+        
+        
     }
     
 }
