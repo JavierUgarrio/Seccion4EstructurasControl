@@ -281,8 +281,49 @@ public class EstructuraControl {
             System.out.println(number12 +" x "+ i +" = "+ (number12*i) );            
         }
         //Instrucciones Break y Continue
-        
+        for(int i = 0; i<=10;i++){
+            System.out.println(number12 +" x "+ i +" = "+ (number12*i) );    
+            if(i == 5){
+                System.out.println("Detener la ejecucion"); 
+                break;
+            }
+        }
+        for(int i = 0; i<=10;i++){
+            System.out.println(number12 +" x "+ i +" = "+ (number12*i) );    
+            if(i == 5){
+                System.out.println("Detener la ejecucion"); 
+                continue;
+            }
+            System.out.println("no me ejecuto en 5, sino que salto");
+        }
          
+        System.out.println("----------------------------------------------------");
+        /*
+        Ejercicio Bucle FOR
+        
+        Enunciado: Dado un rango de números enteros, obtener la cantidad de números enteros que contiene.
+        Análisis: Para la solución de este problema, se requiere que el usuario ingrese el número inicial y final, luego el sistema procesa y devuelve la cantidad de números enteros que contiene el rango.
+
+        Entrada
+        Número Inicial (ni).
+        Número Final (nf).
+
+        Salida
+        Cantidad (c).
+        */
+        System.out.println("Introduce un primer numero para el bucle for");
+        Scanner teclado13 = new Scanner(System.in);
+        int numberInicial = teclado13.nextInt();
+        System.out.println("Introduce un segundo numero para el bucle for");
+        int number2Inicial = teclado13.nextInt();
+        
+        int contador2=0;
+        for(int x = numberInicial; x<= number2Inicial; x++){
+            System.out.println("numeros entre medias " + x );
+            contador2++;
+            
+        }
+        System.out.println("el numero de enteros que contine es: " + contador2);
     }
     
 }
