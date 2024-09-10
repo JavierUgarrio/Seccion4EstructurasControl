@@ -367,6 +367,7 @@ public class EstructuraControl {
                 System.out.println(dato);
             }
         }
+        System.out.println("Bloque terminado");
     }
     
 }
