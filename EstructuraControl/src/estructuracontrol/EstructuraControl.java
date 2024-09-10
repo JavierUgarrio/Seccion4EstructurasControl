@@ -340,7 +340,13 @@ public class EstructuraControl {
         int [] arrayNum2 = new int [10];
         
         //Iterador Array
+        for(int i = 0; i< coleccionNombres.length;i++ ){
+            System.out.println("nombres: " + coleccionNombres[i]);
+        }
         
+        for(String nombre: coleccionNombres){
+            System.out.println("nombres: " + nombre);
+        }
         
         
         
