@@ -261,12 +261,28 @@ public class EstructuraControl {
         
         int contador = 0;
         int numberActual = number1;
-        
+        /*
         while(number1 <= number2){
             contador++;
-            numberActual++;   
+            numberActual++; 
+            System.out.println("La cantidad de números enteros en el rango es: " + contador);
         }
-         System.out.println("La cantidad de números enteros en el rango es: " + contador);
+        */
+         
+        //Bucle FOR
+        System.out.println("--------------------------------------------------------");
+        for(int i =0; i<=10;i++){
+            System.out.println("se imprime el valor i:"+ i);
+        }
+        //tabla de multiplicar
+        System.out.println("--------------------------------------------------------");
+        int number12 =7;
+        for(int i = 0; i<=10;i++){
+            System.out.println(number12 +" x "+ i +" = "+ (number12*i) );            
+        }
+        //Instrucciones Break y Continue
+        
+         
     }
     
 }
